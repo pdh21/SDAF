@@ -331,9 +331,8 @@ so we use a variety of statistical techniques to squueze as much information fro
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Bayesian-Probability">Bayesian Probability<a class="anchor-link" href="#Bayesian-Probability">&#182;</a></h2><p>P( A | B ) = ( P( B | A ) * P(A))/P(B)</p>
-<p>posterior = (likelihood*prior)/marginal_likelihood</p>
-
+<<<<<<< HEAD
+<h2 id="Bayesian-Probability">Bayesian Probability<a class="anchor-link" href="#Bayesian-Probability">&#182;</a></h2>
 </div>
 </div>
 </div></section><section>
@@ -342,6 +341,32 @@ so we use a variety of statistical techniques to squueze as much information fro
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Medical-Example">Medical Example<a class="anchor-link" href="#Medical-Example">&#182;</a></h3>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Saturn-Example">Saturn Example<a class="anchor-link" href="#Saturn-Example">&#182;</a></h3>
+=======
+<h2 id="Bayesian-Probability">Bayesian Probability<a class="anchor-link" href="#Bayesian-Probability">&#182;</a></h2><p>P( A | B ) = ( P( B | A ) * P(A))/P(B)</p>
+<p>posterior = (likelihood*prior)/marginal_likelihood</p>
+
+>>>>>>> master
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<<<<<<< HEAD
+<h3 id="Bayesian-Inference">Bayesian Inference<a class="anchor-link" href="#Bayesian-Inference">&#182;</a></h3>
+=======
 <h3 id="Medical-Example">Medical Example<a class="anchor-link" href="#Medical-Example">&#182;</a></h3><p>Blood test detects vampirism 95% of the time.</p>
 <p>It makes mistakes 1% of the time</p>
 <p>Suppose vampires Make up 0.1% of the population</p>
@@ -350,6 +375,7 @@ so we use a variety of statistical techniques to squueze as much information fro
 <p>[ Where P(positive) = P( positive | vampire )<em>P(vampire) + P(vampire | positive)</em>P(positive) ]
 P(vampire | positive) = 8.7 %</p>
 
+>>>>>>> master
 </div>
 </div>
 </div></section></section><section><section>
@@ -398,6 +424,8 @@ P(vampire | positive) = 8.7 %</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<<<<<<< HEAD
+=======
 <h3 id="Probabilisitic-Programming-Languages:">Probabilisitic Programming Languages:<a class="anchor-link" href="#Probabilisitic-Programming-Languages:">&#182;</a></h3><p>Some examples..</p>
 <ol>
 <li><a href="https://github.com/pymc-devs/pymc">PyMC</a> python module that implements a suite of MCMC algorithms as python classes, is extremely flexible and applicable to a large suite of problems. PyMC includes methods for summarizing output, plotting, goodness-of-fit and convergence diagnostics.</li>
@@ -414,13 +442,18 @@ P(vampire | positive) = 8.7 %</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+>>>>>>> master
 <h2 id="Why-is-this-Important?">Why is this Important?<a class="anchor-link" href="#Why-is-this-Important?">&#182;</a></h2><ul>
 <li>Allows us to separate out <em>modelling</em> and <em>inference</em></li>
 <li>Can create more flexible, and complex models</li>
 <li>Can deal with more complex data</li>
 <li>No longer have to rely on <em>Blackbox</em> like approaches </li>
 </ul>
+<<<<<<< HEAD
+<h3 id="Neuro-example-of-black-box-problems">Neuro example of black box problems<a class="anchor-link" href="#Neuro-example-of-black-box-problems">&#182;</a></h3>
+=======
 
+>>>>>>> master
 </div>
 </div>
 </div></section><section>
@@ -429,12 +462,23 @@ P(vampire | positive) = 8.7 %</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<<<<<<< HEAD
+<h3 id="Probabilisitic-Programming-Languages:">Probabilisitic Programming Languages:<a class="anchor-link" href="#Probabilisitic-Programming-Languages:">&#182;</a></h3><p>Some examples..</p>
+<ol>
+<li><a href="https://github.com/pymc-devs/pymc">PyMC</a> python module that implements a suite of MCMC algorithms as python classes, is extremely flexible and applicable to a large suite of problems. PyMC includes methods for summarizing output, plotting, goodness-of-fit and convergence diagnostics.</li>
+<li><a href="http://research.microsoft.com/en-us/um/cambridge/projects/infernet/">Infer.NET</a> is a software library developed by Microsoft for expressing graphical models and implementing Bayesian inference using a variety of algorithms.</li>
+<li><a href="http://probcomp.csail.mit.edu/venture/">Venture</a> is an interactive, Turing-complete, higher-order probabilistic programming platform that aims to be sufficiently expressive, extensible and efficient for general-purpose use. Its virtual machine supports multiple scalable, reprogrammable inference strategies, plus two front-end languages: VenChurch and VentureScript.</li>
+<li><a href="http://mc-stan.org/">Stan</a> exposes a language for defining probability density functions for probabilistic models. Stan includes a compiler, which produces C++ code that performs Bayesian inference via a method similar to Hamiltonian Monte Carlo sampling.</li>
+</ol>
+
+=======
 <h2 id="Cluster-failure:-Why-fMRI-inferences-for-spatial-extent-have-inflated-false-positive-rates"><a href="http://www.pnas.org/content/113/28/7900.full">Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates</a><a class="anchor-link" href="#Cluster-failure:-Why-fMRI-inferences-for-spatial-extent-have-inflated-false-positive-rates">&#182;</a></h2><h3 id="Anders-Eklunda,-Thomas-E.-Nicholsd,-and-Hans-Knutssona">Anders Eklunda, Thomas E. Nicholsd, and Hans Knutssona<a class="anchor-link" href="#Anders-Eklunda,-Thomas-E.-Nicholsd,-and-Hans-Knutssona">&#182;</a></h3><ol>
 <li>People typically use software like SPM, FSL, AFNI for fMRI analysis</li>
 <li>Gaussian Random Field Theory used to decide whether clusters of voxels are significantly activated</li>
 <li>Assumption about specific correlation function for voxels often inappropriate for different regions of the brain</li>
 </ol>
 <h2 id="leads-to-to-$p$-values-being-reported-of-0.01-when-actually-0.5">leads to to $p$ values being reported of 0.01 when actually 0.5<a class="anchor-link" href="#leads-to-to-$p$-values-being-reported-of-0.01-when-actually-0.5">&#182;</a></h2>
+>>>>>>> master
 </div>
 </div>
 </div></section></section><section><section>
@@ -712,12 +756,22 @@ AElFTkSuQmCC
 
 </div>
 </div>
+<<<<<<< HEAD
+</div>
+=======
 </div></section></section><section><section>
+>>>>>>> master
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<<<<<<< HEAD
+<h3 id="Binary-process">Binary process<a class="anchor-link" href="#Binary-process">&#182;</a></h3>
+</div>
+</div>
+</div></section></section><section><section>
+=======
 <h1 id="---Examples"><img align="left" height="60" src="https://github.com/stan-dev/logos/blob/master/pystan_logo_name.png?raw=true" width="60" />   Examples<a class="anchor-link" href="#---Examples">&#182;</a></h1><hr>
 <hr>
 <blockquote><p><a href="http://mc-stan.org/">Thousands of users rely on Stan for statistical modeling, data analysis, and prediction in the social, biological, and physical sciences, engineering, and business.</a></p>
@@ -737,23 +791,80 @@ AElFTkSuQmCC
 </div>
 </div><aside class="notes">
 
+>>>>>>> master
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<<<<<<< HEAD
+<h1 id="Examples">Examples<a class="anchor-link" href="#Examples">&#182;</a></h1><hr>
+=======
 <p>MCMC sampling provides a way of fully mapping out the posterior probabiity distribution function of your model. Randomly walk around probability space, with different techniques providing more efficient ways of walking..</p>
 <p>If posterior is complicated, an inefficient walk will waste a lot of time in parameter space that is unlikely.. HMC is one of the more efficent techniques, based on the Hamiltonian equation in physics.. uses gradient information</p>
+>>>>>>> master
 
 </div>
 </div>
 </div>
+<<<<<<< HEAD
+=======
 </aside></section></section><section><section>
+>>>>>>> master
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<<<<<<< HEAD
+<h2 id="Single-Variable">Single Variable<a class="anchor-link" href="#Single-Variable">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">import</span> <span class="nn">pystan</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="kn">as</span> <span class="nn">sns</span>
+<span class="kn">from</span> <span class="nn">astropy.table</span> <span class="kn">import</span> <span class="n">Table</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline
+
+
+<span class="n">one_vat_model</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+
+<span class="s2">// Inferring a Rate</span>
+<span class="s2">data { </span>
+<span class="s2">  int&lt;lower=1&gt; n; </span>
+<span class="s2">  int&lt;lower=0&gt; k;</span>
+<span class="s2">} </span>
+<span class="s2">parameters {</span>
+<span class="s2">  real&lt;lower=0,upper=1&gt; theta;</span>
+<span class="s2">} </span>
+<span class="s2">model {</span>
+<span class="s2">  // Prior Distribution for Rate Theta</span>
+<span class="s2">  theta ~ beta(1, 1);</span>
+<span class="s2">  </span>
+<span class="s2">  // Observed Counts</span>
+<span class="s2">  k ~ binomial(n, theta);</span>
+<span class="s2">}</span>
+<span class="s2">&quot;&quot;&quot;</span>
+
+<span class="n">k</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">n</span> <span class="o">=</span> <span class="mi">20</span>
+
+<span class="n">input_data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;k&#39;</span><span class="p">:</span><span class="mi">10</span><span class="p">,</span> <span class="s1">&#39;n&#39;</span><span class="p">:</span><span class="mi">20</span><span class="p">}</span>
+
+<span class="n">samples</span> <span class="o">=</span> <span class="n">pystan</span><span class="o">.</span><span class="n">stan</span><span class="p">(</span><span class="n">model_code</span><span class="o">=</span><span class="n">one_vat_model</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">input_data</span><span class="p">,</span> <span class="nb">iter</span><span class="o">=</span><span class="mi">10000</span><span class="p">,</span> <span class="n">chains</span><span class="o">=</span><span class="mi">2</span>
+<span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+=======
 <h2 id="Regression">Regression<a class="anchor-link" href="#Regression">&#182;</a></h2>
 </div>
 </div>
@@ -907,11 +1018,79 @@ kcwnRSQ7p94AeHKgGzCYybSTaRiNhrkohteYwA2vMYEbXmMCN7zGBG54jQnc8BoTuOE1JnDDa0zg
 hteYwA2vMYEbXvP/L4sok9IJHdEAAAAASUVORK5CYII=
 "
 >
+>>>>>>> master
 </div>
 
 </div>
 
 </div>
+<<<<<<< HEAD
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Schools">Schools<a class="anchor-link" href="#Schools">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="$p$-values">$p$ values<a class="anchor-link" href="#$p$-values">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">pearson_model</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">// Pearson Correlation</span>
+<span class="s2">data { </span>
+<span class="s2">  int&lt;lower=0&gt; n;</span>
+<span class="s2">  vector[2] x[n];</span>
+<span class="s2">}</span>
+<span class="s2">parameters {</span>
+<span class="s2">  vector[2] mu;</span>
+<span class="s2">  vector&lt;lower=0&gt;[2] lambda;</span>
+<span class="s2">  real&lt;lower=-1,upper=1&gt; r;</span>
+<span class="s2">} </span>
+<span class="s2">transformed parameters {</span>
+<span class="s2">  vector&lt;lower=0&gt;[2] sigma;</span>
+<span class="s2">  cov_matrix[2] T;</span>
+<span class="s2">  // Reparameterization</span>
+<span class="s2">  sigma[1] &lt;- inv_sqrt(lambda[1]);</span>
+<span class="s2">  sigma[2] &lt;- inv_sqrt(lambda[2]);</span>
+<span class="s2">  T[1,1] &lt;- square(sigma[1]);</span>
+<span class="s2">  T[1,2] &lt;- r * sigma[1] * sigma[2];</span>
+<span class="s2">  T[2,1] &lt;- r * sigma[1] * sigma[2];</span>
+<span class="s2">  T[2,2] &lt;- square(sigma[2]);</span>
+<span class="s2">}</span>
+<span class="s2">model {</span>
+<span class="s2">  // Priors</span>
+<span class="s2">  mu ~ normal(0, inv_sqrt(.001));</span>
+<span class="s2">  lambda ~ gamma(.001, .001);</span>
+<span class="s2">  </span>
+<span class="s2">  // Data</span>
+<span class="s2">  x ~ multi_normal(mu, T);</span>
+<span class="s2">}</span>
+<span class="s2">&quot;&quot;&quot;</span>
+
+<span class="n">pearson_data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">matrix</span><span class="p">([[</span><span class="o">.</span><span class="mi">8</span><span class="p">,</span><span class="mi">102</span><span class="p">],</span> <span class="p">[</span><span class="mf">1.0</span><span class="p">,</span><span class="mi">98</span><span class="p">],</span> <span class="p">[</span><span class="o">.</span><span class="mi">5</span><span class="p">,</span><span class="mi">100</span><span class="p">],</span> <span class="p">[</span><span class="o">.</span><span class="mi">9</span><span class="p">,</span><span class="mi">105</span><span class="p">],</span> <span class="p">[</span><span class="o">.</span><span class="mi">7</span><span class="p">,</span><span class="mi">103</span><span class="p">],</span> <span class="p">[</span><span class="o">.</span><span class="mi">4</span><span class="p">,</span><span class="mi">110</span><span class="p">],</span> <span class="p">[</span><span class="mf">1.2</span><span class="p">,</span><span class="mi">99</span><span class="p">],</span> <span class="p">[</span><span class="mf">1.4</span><span class="p">,</span><span class="mi">87</span><span class="p">],</span> <span class="p">[</span><span class="o">.</span><span class="mi">6</span><span class="p">,</span><span class="mi">113</span><span class="p">],</span> <span class="p">[</span><span class="mf">1.1</span><span class="p">,</span><span class="mi">89</span><span class="p">],</span> <span class="p">[</span><span class="mf">1.3</span><span class="p">,</span><span class="mi">93</span><span class="p">]])</span>
+<span class="c1">#pearson_data = np.matrix([[.8,102,],[1.0,98,],[.5,100,],[.9,105,],[.7,103,],[.4,110,],[1.2,99,],[1.4,87,],[.6,113,],[1.1,89,],[1.3,93,],[.8,102,],[1.0,98,],[.5,100,],[.9,105,],[.7,103,],[.4,110,],[1.2,99,],[1.4,87,],[.6,113,],[1.1,89,],[1.3,93]])</span>
+<span class="n">n</span> <span class="o">=</span> <span class="mi">11</span>
+<span class="c1"># n = 22</span>
+<span class="n">parameters</span> <span class="o">=</span><span class="p">{</span><span class="s2">&quot;r&quot;</span><span class="p">,</span> <span class="s2">&quot;mu&quot;</span><span class="p">,</span> <span class="s2">&quot;sigma&quot;</span><span class="p">}</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;x&#39;</span><span class="p">:</span><span class="n">pearson_data</span><span class="p">,</span> <span class="s1">&#39;n&#39;</span><span class="p">:</span><span class="n">n</span><span class="p">}</span>
+
+<span class="n">samples</span> <span class="o">&lt;-</span> <span class="n">pystan</span><span class="o">.</span><span class="n">stan</span><span class="p">(</span><span class="n">model_code</span><span class="o">=</span><span class="n">pearson_model</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">pars</span><span class="o">=</span><span class="n">parameters</span><span class="p">,</span> <span class="nb">iter</span><span class="o">=</span><span class="mi">10000</span><span class="p">,</span> <span class="n">chains</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+=======
 </div>
 
 </div></section><section>
@@ -1157,6 +1336,7 @@ AAAAAElFTkSuQmCC
 <span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;Y&#39;</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2000</span><span class="p">):</span>
     <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">lines</span><span class="p">[:,</span><span class="n">i</span><span class="p">],</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span><span class="n">alpha</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span><span class="n">zorder</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+>>>>>>> master
 </pre></div>
 
 </div>
@@ -1170,6 +1350,19 @@ AAAAAElFTkSuQmCC
 
 
 <div class="output_area"><div class="prompt"></div>
+<<<<<<< HEAD
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansired">---------------------------------------------------------------------------</span>
+<span class="ansired">TypeError</span>                                 Traceback (most recent call last)
+<span class="ansigreen">&lt;ipython-input-19-d38312d9faa7&gt;</span> in <span class="ansicyan">&lt;module&gt;</span><span class="ansiblue">()</span>
+<span class="ansigreen">     39</span> data <span class="ansiblue">=</span> <span class="ansiblue">{</span><span class="ansiblue">&apos;x&apos;</span><span class="ansiblue">:</span>pearson_data<span class="ansiblue">,</span> <span class="ansiblue">&apos;n&apos;</span><span class="ansiblue">:</span>n<span class="ansiblue">}</span><span class="ansiblue"></span>
+<span class="ansigreen">     40</span> <span class="ansiblue"></span>
+<span class="ansigreen">---&gt; 41</span><span class="ansired"> </span>samples <span class="ansiblue">&lt;</span><span class="ansiblue">-</span> pystan<span class="ansiblue">.</span>stan<span class="ansiblue">(</span>model_code<span class="ansiblue">=</span>pearson_model<span class="ansiblue">,</span> data<span class="ansiblue">=</span>data<span class="ansiblue">,</span> pars<span class="ansiblue">=</span>parameters<span class="ansiblue">,</span> iter<span class="ansiblue">=</span><span class="ansicyan">10000</span><span class="ansiblue">,</span> chains<span class="ansiblue">=</span><span class="ansicyan">1</span><span class="ansiblue">)</span><span class="ansiblue"></span>
+
+<span class="ansired">TypeError</span>: bad operand type for unary -: &apos;stanfit4anon_model_cbdffd142e6b5f7643dd9a16a8322d7b_7250049168657858168.StanFit4Model&apos;</pre>
+</div>
+=======
 
 
 <div class="output_png output_subarea ">
@@ -1813,11 +2006,82 @@ IqKuGDAQERFRVwwYiIiIqCsGDERERNTV/weg+cxS4NEkpAAAAABJRU5ErkJggg==
 >
 </div>
 
+>>>>>>> master
 </div>
 
 </div>
 </div>
 
+<<<<<<< HEAD
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>$\kappa$ Values</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input_hidden">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span><span class="n">kappa_model</span> <span class="o">=</span><span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">// Kappa Coefficient of Agreement</span>
+<span class="s2">data { </span>
+<span class="s2">  int&lt;lower=0&gt; y[4];</span>
+<span class="s2">}</span>
+<span class="s2">parameters {</span>
+<span class="s2">  // Underlying Rates</span>
+<span class="s2">  // Rate Objective Method Decides &#39;one&#39;</span>
+<span class="s2">  real&lt;lower=0,upper=1&gt; alpha;</span>
+<span class="s2">  // Rate Surrogate Method Decides &#39;one&#39; When Objective Method Decides &#39;one&#39;</span>
+<span class="s2">  real&lt;lower=0,upper=1&gt; beta;</span>
+<span class="s2">  // Rate Surrogate Method Decides &#39;zero&#39; When Objective Method Decides &#39;zero&#39;</span>
+<span class="s2">  real&lt;lower=0,upper=1&gt; gamma;</span>
+<span class="s2">} </span>
+<span class="s2">transformed parameters {</span>
+<span class="s2">  simplex[4] pi;</span>
+<span class="s2">  real xi;</span>
+<span class="s2">  real psi;</span>
+<span class="s2">  real kappa;</span>
+<span class="s2">  // Probabilities For Each Count</span>
+<span class="s2">  pi[1] &lt;- alpha * beta;</span>
+<span class="s2">  pi[2] &lt;- alpha * (1 - beta);</span>
+<span class="s2">  pi[3] &lt;- (1 - alpha) * (1 - gamma);</span>
+<span class="s2">  pi[4] &lt;- (1 - alpha) * gamma;</span>
+<span class="s2">    </span>
+<span class="s2">  // Derived Measures   </span>
+<span class="s2">  // Rate Surrogate Method Agrees With the Objective Method</span>
+<span class="s2">  xi &lt;- alpha * beta + (1 - alpha) * gamma ;</span>
+<span class="s2">  // Rate of Chance Agreement</span>
+<span class="s2">  psi &lt;- (pi[1] + pi[2]) * (pi[1] + pi[3]) + (pi[2] + pi[4]) * (pi[3] + pi[4]);  </span>
+<span class="s2">  // Chance-Corrected Agreement</span>
+<span class="s2">  kappa &lt;- (xi - psi) / (1 - psi);</span>
+<span class="s2">}</span>
+<span class="s2">model {</span>
+<span class="s2">  alpha ~ beta(1, 1);  // could be removed</span>
+<span class="s2">  beta ~ beta(1, 1);  // could be removed</span>
+<span class="s2">  gamma ~ beta(1, 1);  // could be removed</span>
+<span class="s2">  // Count Data     </span>
+<span class="s2">  y ~ multinomial(pi);</span>
+<span class="s2">}</span>
+<span class="s2">&quot;&quot;&quot;</span>
+<span class="c1"># CHOOSE a data set:</span>
+<span class="c1"># Influenza </span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">{</span><span class="mi">14</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">210</span><span class="p">}</span>
+<span class="c1"># Hearing Loss </span>
+<span class="c1"># y &lt;- {20, 7, 103, 417}</span>
+<span class="c1"># Rare Disease</span>
+<span class="c1"># y &lt;- {0, 0, 13, 157}</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;y&#39;</span><span class="p">:</span><span class="n">y</span><span class="p">}</span>
+<span class="n">parameters</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;kappa&quot;</span><span class="p">,</span> <span class="s2">&quot;xi&quot;</span><span class="p">,</span> <span class="s2">&quot;psi&quot;</span><span class="p">,</span> <span class="s2">&quot;alpha&quot;</span><span class="p">,</span> <span class="s2">&quot;beta&quot;</span><span class="p">,</span> <span class="s2">&quot;gamma&quot;</span><span class="p">,</span> <span class="s2">&quot;pi&quot;</span><span class="p">}</span>
+=======
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input_hidden">
@@ -2309,6 +2573,7 @@ qGSwuCUiIiKikvF/iLgMUMKpM4YAAAAASUVORK5CYII=
 <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2000</span><span class="p">):</span>
     <span class="n">y_pred</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="n">samples</span><span class="p">[:,:,</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">samples</span><span class="p">[:,:,</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)[</span><span class="n">i</span><span class="p">]</span><span class="o">*</span><span class="n">x</span><span class="o">+</span><span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">samples</span><span class="p">[:,:,</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)[</span><span class="n">i</span><span class="p">])</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">y_pred</span><span class="p">)</span>
+>>>>>>> master
 </pre></div>
 
 </div>
@@ -2317,6 +2582,27 @@ qGSwuCUiIiKikvF/iLgMUMKpM4YAAAAASUVORK5CYII=
 
 </div>
 
+<<<<<<< HEAD
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Regression">Regression<a class="anchor-link" href="#Regression">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="Correlated-Errors">Correlated Errors<a class="anchor-link" href="#Correlated-Errors">&#182;</a></h4>
+</div>
+</div>
+</div></section></section><section><section>
+=======
 <div class="output_wrapper">
 <div class="output">
 
@@ -2536,6 +2822,7 @@ ogQiIiJxUQIREZG4KIGIiEhclEBERCQu/x+v66tvkbFB/wAAAABJRU5ErkJggg==
 </div>
 
 </div></div></section></section><section><section>
+>>>>>>> master
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -3647,6 +3934,8 @@ YYglIiIiItf5/xeSk9r6LT9VAAAAAElFTkSuQmCC
 
 </div>
 
+<<<<<<< HEAD
+=======
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input_hidden">
@@ -3663,6 +3952,7 @@ YYglIiIiItf5/xeSk9r6LT9VAAAAAElFTkSuQmCC
 
 </div>
 
+>>>>>>> master
 </div></section></section>
 </div>
 </div>
