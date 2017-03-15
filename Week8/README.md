@@ -12,4 +12,4 @@ Since the last 40 years satellites have continuously monitored the earth surface
 
 
 ### Presentation
-- (http://martin-jung.github.io/DACMTalk)[Link to talk]
+- [Link to talk](http://martin-jung.github.io/DACMTalk)
